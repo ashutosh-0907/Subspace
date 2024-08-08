@@ -20,7 +20,7 @@ class BlogCard extends StatelessWidget {
         );
       },
       child: Card(
-        margin: EdgeInsets.all(10.0),
+        margin: const EdgeInsets.all(10.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
